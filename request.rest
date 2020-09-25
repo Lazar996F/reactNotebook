@@ -8,5 +8,5 @@ Content-Type: application/json
 
 {
     "name":"Lazar",
-    "password":"sifra21"
+    "password":"sifra"
 }

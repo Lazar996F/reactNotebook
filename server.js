@@ -11,9 +11,8 @@ app.get('/users', (req,res)=> {
 })
 
 
-
+//sing up
 app.post ('/users', async (req,res)=> {
-
     try{
         const salt= await bcrypt.genSalt()
         const hashedPassword = await bcrypt.hash(req.body.password,salt)
